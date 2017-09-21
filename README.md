@@ -74,7 +74,7 @@ public interface IXerofScanner {
 ```java
 //Create a random ChainSequenceGenerator and a XerofScanner 
 ChainSequenceGenerator chainGenerator = new ChainSequenceGenerator();
-XerofScanner xerofScanner = new XerofScanner();
+IXerofScanner xerofScanner = new XerofScanner();
 
 //Set the min and max length of block for scanning the chain
 xerofScanner.setAttributes(7, 2);
