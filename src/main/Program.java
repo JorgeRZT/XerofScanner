@@ -6,8 +6,8 @@ import core.ChainSequence;
 import core.IXerofScanner;
 import core.Variant;
 import core.XerofScanner;
-import test.ChainSequenceGenerator;
-import test.IChainSequenceGenerator;
+import generator.ChainSequenceGenerator;
+import generator.IChainSequenceGenerator;
 
 public class Program {
 	
@@ -32,7 +32,7 @@ public class Program {
 		
 		lengthAccuracy = 0.0;
 		for(Variant variant : length2) {
-			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
+			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tLength Accuracy: "+variant.getLengthAccuracy()+"%, \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
 			lengthAccuracy += variant.getLengthAccuracy();
 		}
 		
@@ -40,7 +40,7 @@ public class Program {
 		
 		lengthAccuracy = 0.0;
 		for(Variant variant : length3) {
-			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
+			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tLength Accuracy: "+variant.getLengthAccuracy()+"%, \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
 			lengthAccuracy += variant.getLengthAccuracy();	
 		}
 		
@@ -48,7 +48,7 @@ public class Program {
 		
 		lengthAccuracy = 0.0;
 		for(Variant variant : length4) {
-			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
+			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tLength Accuracy: "+variant.getLengthAccuracy()+"%, \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
 			lengthAccuracy += variant.getLengthAccuracy();	
 		}
 		
@@ -56,7 +56,7 @@ public class Program {
 		
 		lengthAccuracy = 0.0;
 		for(Variant variant : length5) {
-			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
+			System.out.println("Value: "+variant.getValue()+",\tFrequency: "+variant.getFrequency()+", \tLength Accuracy: "+variant.getLengthAccuracy()+"%, \tGlobal Accuracy: "+variant.getGlobalAccuracy()+"% ");
 			lengthAccuracy += variant.getLengthAccuracy();			
 		}
 		
