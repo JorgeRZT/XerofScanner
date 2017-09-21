@@ -4,7 +4,10 @@
 *.project
 *.settings
 *.prefs
+<<<<<<< HEAD
 
+=======
+>>>>>>> d0af68baa355f8fc749ec94aa1a13470d54aa3bd
 
 # Log file
 *.log
