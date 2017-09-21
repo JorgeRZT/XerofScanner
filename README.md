@@ -160,3 +160,20 @@ Value: DUDUC,	Frequency: 1, 	Length Accuracy: 5.0%, 	Global Accuracy: 0.95238095
 
 Length Accuracy: 100.0%
 ```
+
+# Extra
+Little example using jQuery for a sequence generation
+```javascript
+function createSequence(size){
+  var sequence = "";
+  for(var i = 0 ; i < size; i++){
+    sequence += getRandomChar();
+  }
+  return sequence;
+}
+
+function getRandomChar(){
+  var chars = ["A","T","C","G"];
+  return chars[Math.floor((Math.random() * chars.length))];
+}
+```
