@@ -22,7 +22,7 @@ public class ChainSequenceGenerator implements IChainSequenceGenerator{
 
 	@Override
 	public char GenerateRandomChar() {
-		return chars[(int) (Math.random()*3)];
+		return chars[(int) (Math.random()*chars.length())];
 	}
 
 }
