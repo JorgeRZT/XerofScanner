@@ -181,7 +181,7 @@ function getRandomChar(){
 
 ## jQuery Example
 ```javascript
-creatSequence(500)
+createSequence(500)
 ```
 
 ## Output
