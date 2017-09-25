@@ -1,4 +1,4 @@
-function creatSequence(size){
+function createSequence(size){
   var sequence = "";
   for(var i = 0 ; i < size; i++){
     sequence += getRandomChar();
